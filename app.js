@@ -73,7 +73,7 @@ app.use(function (req, res, next) {
 
 app.get("/", (req, res) => {
   res.render("views/index.ejs", { user: req.user });
-  console.log("hello world");
+  console.log("hello worldd");
 });
 
 ////post
